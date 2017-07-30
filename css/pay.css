@@ -1,0 +1,49 @@
+.pay-information{
+	width: 1200px;
+	margin: 0 auto;
+}
+.pay-information:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.pay-information>div{
+	border-top: 2px solid #FF4400;
+	padding-top: 10px;
+}
+.pay-information>div:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.pay-information>div>h3{
+	/*margin: 10px 0;*/
+	background: #9A9A9A;
+	color: white;
+
+}
+
+.pay-information .address .addAddress{
+	margin: 10px 0;
+	float: right;
+	width: 160px;
+	height: 30px;
+	background: #FD4416;
+	border: 1px solid #FD4416;
+	color: #FFFFFF;
+}
+.pay-information .address .address-list:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*pay*/
+.pay-information .payway .pay-get,.pay-information .payway .pay-online{
+	width: 120px;
+	height: 40px;
+	margin: 10px 0;
+	background: #FD4416;
+	border: 1px solid #FD4416;
+	color: #FFFFFF;
+}

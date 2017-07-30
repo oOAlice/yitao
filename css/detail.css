@@ -1,0 +1,68 @@
+.good-box{
+	width: 1200px;
+	height: 570px;
+	margin: 0 auto;
+	padding-top: 60px;
+	border: 2px #FF450C solid;
+	border-left: none;
+	border-right: none;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.good_leftDiv{
+	float: left;
+	width: 435px;
+	height: 435px;
+	margin: 0 10px;
+	border: 1px solid #FD4416;
+	box-sizing: border-box;
+}
+.good_leftDiv img{
+	width: 433px;
+	height: 433px;
+}
+.good_rightDiv{
+	width: 745px;
+	float: left;
+}
+.good_title{
+	padding: 30px 50px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: bold;
+	
+}
+.good_price{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 22px;
+	color: #FF450C;
+}
+.good_desc{
+	padding: 20px 30px;
+	line-height: 30px;
+	font-size: 22px;
+}
+.addBtn,.downBtn,.textInput{
+	width: 54px;
+	height: 54px;
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid #9a9a9a;
+	box-sizing: border-box;
+}
+.good_addControl{
+	padding: 20px 30px;
+}
+.buy_good button{
+	border: none;
+	margin: 0px 30px;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	background: #fb3434;
+}

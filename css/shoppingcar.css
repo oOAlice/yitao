@@ -1,0 +1,84 @@
+.shoppingcar{
+	width: 1200px;
+	margin: 0 auto;
+}
+.shoppingcar:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.shoppingcar .shoppingcar-goodlist{
+	width: 1200px;
+	margin: 0 auto;
+	border-bottom: 1px solid #FD4416;
+}
+.shoppingcar .shoppingcar-goodlist:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.shoppingcar .shoppingcar-goodlist ul{
+	width: 100%;
+	height: 106px;
+	border-top: 2px solid #FF450C;
+}
+.shoppingcar .shoppingcar-goodlist li{
+	float: left;
+	width: 200px;
+	text-align: center;
+	line-height: 106px;
+}
+.shoppingcar .shoppingcar-goodlist .shoppingcar-li01{
+	width: 100px;
+}
+.shoppingcar .shoppingcar-goodlist .shoppingcar-li02{
+	width: 300px;
+	overflow: hidden;
+}
+.shoppingcar .shoppingcar-goodlist .shoppingcar-li02 img{
+	width: 100px;
+	float: left;
+}
+.shoppingcar .shoppingcar-goodlist .shoppingcar-li02 p{
+	float: left;
+	max-width:190px;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* IE 专有属性，当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.shoppingcar .shoppingcar-goodlist .shoppingcar-li03 input{
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.shoppingcar-function{
+	width: 1200px;
+	height: 100px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+.shoppingcar-function .dellot,.shoppingcar-function .submitbtn{
+	width: 150px;
+	height: 60px;
+	background: #FD4416;
+	border: none;
+	float: left;
+}
+.shoppingcar-function .submitbtn{
+	width: 150px;
+	height: 60px;
+	background: #FD4416;
+	border: none;
+	float: right;
+}
+.shoppingcar-function p{
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
